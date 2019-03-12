@@ -16,7 +16,7 @@ Gem::Specification.new do |gem|
   gem.files         = Dir["README.md", "LICENSE.txt", "lib/**/*"]
   gem.require_path  = "lib"
 
-  gem.add_dependency "refile", "~> 0.5"
+  gem.add_dependency "refile", "~> 0.2"
   gem.add_dependency 'mongoid', '~> 5.0'
 
   gem.add_development_dependency "rake", "~> 10.0"
